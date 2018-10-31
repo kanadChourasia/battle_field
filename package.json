@@ -1,0 +1,25 @@
+{
+  "name": "battle_field",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanadChourasia/battle_field.git"
+  },
+  "keywords": [
+    "battle"
+  ],
+  "author": "Kanad Chourasia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanadChourasia/battle_field/issues"
+  },
+  "homepage": "https://github.com/kanadChourasia/battle_field#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

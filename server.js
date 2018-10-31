@@ -1,14 +1,14 @@
 var express = require("express")
 var app = express();
+var port = process.env.PORT || 3000
 
 app.get("*",function(req,res){
-	
-	res.send("<H1>App is Running</H1>")
+   res.send("<H1>App is Running</H1>")
 })
 
 
-app.listen(3000,function(err){
+app.listen(port,function(err){
    if(err) throw err
-   console.log("Yippee App is running on port 3000")
+   console.log("Yippee App is running on port",port)
 })
 

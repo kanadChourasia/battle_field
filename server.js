@@ -4,6 +4,7 @@ require('dotenv').config();
 require('./lib/dbi/db');
 
 var app = express();
+var port = process.env.PORT || 3000
 
 app.use(jsend.middleware);
 
@@ -15,7 +16,7 @@ app.get("*",(req,res)=>{
 
 app.listen(3000,(err)=>{
    if(err) throw err
-   console.log("Yippee App is running on port 3000")
+   console.log("Yippee App is running on port",port)
 })
 
 module.exports = {
